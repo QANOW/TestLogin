@@ -47,15 +47,15 @@ except AssertionError:
 
 try:
     test_invalid_login()
-    print("Teste de login com credenciais inválidas passou.")
-except AssertionError:
     print("Teste de login com credenciais inválidas falhou.")
+except AssertionError:
+    print("Teste de login com credenciais inválidas passou.")
 
 try:
     test_empty_fields_login()
-    print("Teste de login com campos vazios passou.")
-except AssertionError:
     print("Teste de login com campos vazios falhou.")
+except AssertionError:
+    print("Teste de login com campos vazios passou.")
 
 # Fecha o WebDriver
 driver.quit()
