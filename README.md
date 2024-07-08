@@ -44,6 +44,7 @@ Criar um Ambiente Virtual (opcional):
     
 Instale o Selenium no ambiente virtual: pip install selenium
 Executar o Script no Ambiente Virtual:  python test_selenium.py
+
 ![image](https://github.com/QANOW/TestLogin/assets/155574624/d140f85f-55fc-49a5-b408-ab0efb74e5bd)
 
 
