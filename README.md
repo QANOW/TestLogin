@@ -34,17 +34,13 @@ Instruções para Execução
 1. Certifique-se de que o Python 3.x e o Selenium WebDriver estão instalados.
 2. Baixe o ChromeDriver compatível com sua versão do navegador Chrome e adicione-o ao PATH do sistema.
 3. Salve o código acima em um arquivo chamado ` test_selenium.py `.
-4. Execute o script com o comando: ` python test_selenium.py `.
+4. Execute o script com o comando: python test_selenium.py
    
 Criar um Ambiente Virtual (opcional):
    Para evitar conflitos, você pode criar um ambiente virtual e instalar o Selenium nele: python -m venv myenv
  Ative o ambiente virtual:
-    Windows:
-    
-     myenv\Scripts\activate
-   Mac/Linux:
-   
-    source myenv/bin/activate
+    Windows: myenv\Scripts\activate
+   Mac/Linux: source myenv/bin/activate
     
 Instale o Selenium no ambiente virtual: pip install selenium
 Executar o Script no Ambiente Virtual:  python test_selenium.py
