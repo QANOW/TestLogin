@@ -10,7 +10,7 @@ O objetivo deste teste é validar a funcionalidade da tela de login da aplicaç�
 - Python 3.x instalado https://www.python.org/downloads/
 - Selenium WebDriver instalado (`pip install selenium`)
 - Navegador Chrome instalado
-- ChromeDriver correspondente ao navegador Chrome instalado e no PATH do sistema
+- ChromeDriver correspondente ao navegador Chrome instalado e no PATH do sistema (Extraia o arquivo chromedriver.exe do chromedriver-win64.zip)
 
  Cenários de Teste
 1. Login com credenciais válidas
